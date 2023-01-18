@@ -1,17 +1,16 @@
 @extends('layouts.master')
 
-@section('titulo', 'Blade title')
+@section('titulo', 'Mi titulo')
 
 @section('menu')
-    Menu
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sección 1</a></li>
-    </ul>
-    @parent
+  @parent
+  <ul>
+    <li><a href="#">Proveedores</a></li>
+    <li><a href="#">Sección2</a></li>
+  </ul> 
 @endsection
 
 @section('contenido')
-    <p>Hola</p>
-    <p>¿Que tal?</p>
+  <p>Hola</p>
+  <p>¿que tal?</p>
 @endsection
